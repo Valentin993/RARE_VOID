@@ -1,0 +1,6 @@
+{
+  "name": "RARE_VOID",
+  "description": "RARE_VOID - A brutalist streetwear brand featuring limited-edition industrial apparel exclusives, urban utility collections, and minimalist philosophy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
