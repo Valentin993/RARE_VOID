@@ -10,7 +10,7 @@ import CartDrawer from "./components/CartDrawer";
 import SearchOverlay from "./components/SearchOverlay";
 import Toast from "./components/Toast";
 import { Product, CartItem } from "./types";
-import { X, Shield, Truck, FileText } from "lucide-react";
+import { X, Shield, Truck, FileText, ArrowUp } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 
 export default function App() {
@@ -25,6 +25,25 @@ export default function App() {
 
   // Success feedback toast alert state
   const [toast, setToast] = useState<{ message: string; type?: "success" | "info" | "error" } | null>(null);
+
+  // Scroll to Top state
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollToTop(true);
+      } else {
+        setShowScrollToTop(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   // Sync state with url hash on load & on change
   useEffect(() => {
@@ -276,6 +295,24 @@ export default function App() {
               </div>
             </motion.div>
           </div>
+        )}
+      </AnimatePresence>
+
+      {/* Floating Scroll-to-Top Navigation Button */}
+      <AnimatePresence>
+        {showScrollToTop && (
+          <motion.button
+            initial={{ opacity: 0, y: 15, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 15, scale: 0.95 }}
+            transition={{ duration: 0.2 }}
+            onClick={scrollToTop}
+            title="Scroll to main system header"
+            className="fixed bottom-6 right-6 z-[80] bg-[#1a1a1a] hover:bg-white text-white hover:text-[#131313] border border-[#333333] hover:border-white font-mono text-[10px] uppercase tracking-widest px-4 py-2.5 transition-all duration-200 flex items-center gap-2 select-none shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
+          >
+            <ArrowUp className="w-3.5 h-3.5" />
+            <span>TO_TOP</span>
+          </motion.button>
         )}
       </AnimatePresence>
     </div>

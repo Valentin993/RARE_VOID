@@ -70,6 +70,14 @@ export default function Navbar({
 
       {/* Action controls */}
       <div className="flex items-center gap-2 md:gap-4">
+        {/* SHOP_NOW Action Button */}
+        <button
+          onClick={() => handleLinkClick("collection")}
+          className="hidden sm:inline-flex bg-white hover:bg-transparent text-black hover:text-white border border-transparent hover:border-white font-mono text-[10px] uppercase font-bold tracking-widest px-4 py-2 transition-all duration-200 select-none shadow-[3px_3px_0px_0px_rgba(255,255,255,0.15)] active:translate-x-[1px] active:translate-y-[1px] active:shadow-none"
+        >
+          [SHOP_NOW]
+        </button>
+
         {/* Search Trigger */}
         <button
           onClick={onOpenSearch}
