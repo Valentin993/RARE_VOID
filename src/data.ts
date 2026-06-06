@@ -229,7 +229,7 @@ export const PRODUCTS: Product[] = [
     id: "020",
     name: "MODULAR TACTICAL VEST",
     price: 195,
-    img: "/src/assets/images/tactical_utility_vest_1780700411716.png",
+    img: "/assets/images/tactical_utility_vest_1780700411716.png",
     specs: [
       "Ultra-resilient 1000D ballistic nylon configuration",
       "Fully detachable modular pocket modules (MOLLE-Sys)",
@@ -245,7 +245,7 @@ export const PRODUCTS: Product[] = [
     id: "021",
     name: "BRUTALIST HEAVY PARKA",
     price: 320,
-    img: "/src/assets/images/brutalist_heavy_parka_1780700427958.png",
+    img: "/assets/images/brutalist_heavy_parka_1780700427958.png",
     specs: [
       "Dense windproof heavy-weight structural canvas outershell",
       "Overbuilt oversized funnel-neck storm hood layout",
@@ -261,7 +261,7 @@ export const PRODUCTS: Product[] = [
     id: "022",
     name: "TACTICAL HARNESS BAG",
     price: 155,
-    img: "/src/assets/images/tactical_harness_bag_1780700442811.png",
+    img: "/assets/images/tactical_harness_bag_1780700442811.png",
     specs: [
       "Secured dual shoulder tactical quick-mount layout",
       "Heavy matte-black water-resistant industrial zippers",
@@ -277,7 +277,7 @@ export const PRODUCTS: Product[] = [
     id: "024",
     name: "RIBBED TECH BEANIE",
     price: 55,
-    img: "/src/assets/images/ribbed_tech_beanie_1780700471791.png",
+    img: "/assets/images/ribbed_tech_beanie_1780700471791.png",
     specs: [
       "Heavy gauge high-thermal ribbed knit structure",
       "Brushed steel custom laser-etched brand emblem plate",
@@ -293,7 +293,7 @@ export const PRODUCTS: Product[] = [
     id: "025",
     name: "VOID MATRIX HOODIE",
     price: 190,
-    img: "/src/assets/images/matrix_stencil_hoodie_1780701184958.png",
+    img: "/assets/images/matrix_stencil_hoodie_1780701184958.png",
     specs: [
       "520GSM ultra-dense sand-washed organic cotton fleece",
       "Geometric 3D matrix silicone-stencil graphic across rear shoulders",
@@ -309,7 +309,7 @@ export const PRODUCTS: Product[] = [
     id: "026",
     name: "SCHEMATIC MOCK-NECK TEE",
     price: 90,
-    img: "/src/assets/images/schematic_mock_tee_1780701198532.png",
+    img: "/assets/images/schematic_mock_tee_1780701198532.png",
     specs: [
       "320GSM compact organic cotton interlock knit structure",
       "Thick double-needle mock-neck collar configuration",
@@ -325,7 +325,7 @@ export const PRODUCTS: Product[] = [
     id: "027",
     name: "LIQUID CHROME HOODIE",
     price: 195,
-    img: "/src/assets/images/chrome_trippy_hoodie_1780701864302.png",
+    img: "/assets/images/chrome_trippy_hoodie_1780701864302.png",
     specs: [
       "520GSM ultra-dense stone-washed black organic fleece",
       "Vibrant high-definition liquid chrome psychedelic print on front",
@@ -341,7 +341,7 @@ export const PRODUCTS: Product[] = [
     id: "028",
     name: "WARPED PORTAL HOODIE",
     price: 215,
-    img: "/src/assets/images/warped_portal_hoodie_1780701877620.png",
+    img: "/assets/images/warped_portal_hoodie_1780701877620.png",
     specs: [
       "480GSM premium loopback structured cotton fabric",
       "Surreal mind-bending spiral topographic portal graphic printed on chest",
@@ -357,7 +357,7 @@ export const PRODUCTS: Product[] = [
     id: "029",
     name: "LIQUID OPTIC TEE",
     price: 95,
-    img: "/src/assets/images/liquid_optic_tee_1780702036645.png",
+    img: "/assets/images/liquid_optic_tee_1780702036645.png",
     specs: [
       "320GSM compact organic cotton interlock knit structure",
       "High-fidelity liquid chrome psychedelic face print on chest",
@@ -373,7 +373,7 @@ export const PRODUCTS: Product[] = [
     id: "030",
     name: "THERMAL VORTEX TEE",
     price: 100,
-    img: "/src/assets/images/thermal_vortex_tee_1780702052123.png",
+    img: "/assets/images/thermal_vortex_tee_1780702052123.png",
     specs: [
       "320GSM ultra-heavy long-staple cotton fibers",
       "Trippy high-vis static thermal-vortex heat print on back",
