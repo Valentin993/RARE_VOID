@@ -2,6 +2,27 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Defensively define a setter on window.fetch if the host/sandbox environment makes it read-only
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(val) {
+              currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn("[Sanity Check] Unable to override window.fetch wrapper:", e);
+        }
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RARE_VOID | BRUTAL SYSTEM</title>
     <!-- Google Fonts -->

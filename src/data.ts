@@ -1,22 +1,37 @@
 import { Product, LocationNode } from "./types";
 
-import img_020 from "./assets/images/tactical_utility_vest_1780700411716.png";
-import img_021 from "./assets/images/brutalist_heavy_parka_1780700427958.png";
-import img_022 from "./assets/images/tactical_harness_bag_1780700442811.png";
-import img_024 from "./assets/images/ribbed_tech_beanie_1780700471791.png";
-import img_025 from "./assets/images/matrix_stencil_hoodie_1780701184958.png";
-import img_026 from "./assets/images/schematic_mock_tee_1780701198532.png";
-import img_027 from "./assets/images/chrome_trippy_hoodie_1780701864302.png";
-import img_028 from "./assets/images/warped_portal_hoodie_1780701877620.png";
-import img_029 from "./assets/images/liquid_optic_tee_1780702036645.png";
-import img_030 from "./assets/images/thermal_vortex_tee_1780702052123.png";
+import img_001 from "./assets/images/minimal_trippy_hoodie_1781037981845.png";
+import img_002 from "./assets/images/brutalist_tee_1781037997082.png";
+import img_003 from "./assets/images/void_archive_cap_1781038012941.png";
+import img_004 from "./assets/images/rare_void_hoodie_v2_1781038715195.png";
+import img_005 from "./assets/images/industrial_hoodie_1781038043361.png";
+import img_006 from "./assets/images/brutalist_hoodie_v2_1781038059987.png";
+import img_007 from "./assets/images/geometric_back_tee_1781038075592.png";
+import img_008 from "./assets/images/void_windbreaker_1781038090268.png";
+import img_009 from "./assets/images/cargo_complex_pants_1781038104605.png";
+import img_015 from "./assets/images/shoulder_system_bag_1781038119163.png";
+import img_016 from "./assets/images/technical_cargo_shorts_1781038135204.png";
+import img_017 from "./assets/images/utility_void_belt_1781038149559.png";
+import img_018 from "./assets/images/technical_mesh_mask_1781038164285.png";
+import img_019 from "./assets/images/industrial_lanyard_1781038181864.png";
+
+import img_020 from "./assets/images/tactical_utility_vest_1781037232016.png";
+import img_021 from "./assets/images/brutalist_heavy_parka_1781037244852.png";
+import img_022 from "./assets/images/tactical_harness_bag_1781037258130.png";
+import img_024 from "./assets/images/ribbed_tech_beanie_1781037270518.png";
+import img_025 from "./assets/images/matrix_stencil_hoodie_1781037282265.png";
+import img_026 from "./assets/images/schematic_mock_tee_1781037295914.png";
+import img_027 from "./assets/images/chrome_trippy_hoodie_1781037307708.png";
+import img_028 from "./assets/images/warped_portal_hoodie_1781037321474.png";
+import img_029 from "./assets/images/liquid_optic_tee_1781037334266.png";
+import img_030 from "./assets/images/thermal_vortex_tee_1781037345260.png";
 
 export const PRODUCTS: Product[] = [
   {
     id: "001",
     name: "MINIMAL TRIPPY HOODIE",
     price: 180,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLsIdcUyAkXb07ECIxLepM67GTNRO9JtP0tbjsBKl1Fu2Vd8teI0EDsezZ7ofVFKQrvXwO5-P1zCf9o4EE04ujT95jGFuwNCa5INKM6oAI7rUMpPRqZWpE_rKqf4C2ZG8Mj2EvfxiKk3R88ITHejInjaw-ePmwhzsc2LQaj3w13Qbvwwun_289OkZ70moPTUwChGkv_3wowG2ER57JvueWb0SIgwxlQaud1W5Qp7mhKj9kf5mjvIC-SnIRs",
+    img: img_001,
     specs: [
       "500GSM heavyweight cotton fleece for comfort and durability",
       "Reinforced industrial construction stitching with raw overlock seams",
@@ -32,7 +47,7 @@ export const PRODUCTS: Product[] = [
     id: "002",
     name: "BRUTALIST TEE",
     price: 85,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLvSiR37SmrkRSANWbdjc_Ryge4F6pe8PwOyBOVKXxywLvcLTZ1xggN24yslmZdXKXVciTftySS3ShDMtbtlyYeTl_5HXEEajTBdcVgzIoepgLtf-1e9UCNsb5jb3kF8blElzQ-oaqxRzXT1ppEKukPcMhQXKHRdqE7LFfcx_p15q_P5ZdBkrBeONSidONtx1WUfwsR8K8K4mZ0NLBVt4bZfWnmxILvBBM3q0yc0YlJ68FacKeMZaWs9Cg",
+    img: img_002,
     specs: [
       "280GSM high-density open-end structural jersey",
       "High-density tactile plastisol ink logo detailing",
@@ -48,7 +63,7 @@ export const PRODUCTS: Product[] = [
     id: "003",
     name: "VOID ARCHIVE CAP",
     price: 65,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLsGG33GolJi5h8Kq5t-8169ZOy4PEWo2xCq-r-1AeoZWXvs46IRnElvMnOPU31rDABz_UAdrnHZj4w5YO5sDHU-LVvdrt1U5TWwFnLzUNCtto3gGbk9Mw9ZL0-F1LAcsVFsC1hSGxAdazOjUuaWXeh27e1JoB9e81gBExgyDhlYxQIvflohnY7l1Up6ukD2Jpspl8Fdx78txHLKhaQKSe9ocpk3XbuEj5FaKwyjPyow5vhJEgvyOX1M9Y8",
+    img: img_003,
     specs: [
       "Distressed dense twill cotton canvas",
       "Stitched three-dimensional structural Void emblem",
@@ -64,23 +79,23 @@ export const PRODUCTS: Product[] = [
     id: "004",
     name: "RARE_VOID HOODIE",
     price: 180,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLs9Z_fxqu1t-VbMXPrA1wQclvZz_tuAaMovBoeqklbKdUo1xlL6YcBFz27-6w1XCfOi7nc0xRFKQg45hyjlXTX4BkWlxoln0VlSHmbBnLS2Yb5x-z1I-mVYhHeZkPlZE4gunbgy6TK48mXCS09BE-Xz5FWIQ2IyoSVtBxfF2x7iF1cjZsXngSh3f6MnQTw4Lge_Yrwa7cQocSVru1jYzOq-iMwIYkRw3WnCjF9gomgA-pDXO6BIN4gHcHY",
+    img: img_004,
     specs: [
-      "450GSM custom French Terry fleece inside",
-      "Interlock contrast stitching details throughout the seams",
-      "Articulated structural sleeves with custom ribbing",
-      "Dual hidden side zipper compartments"
+      "Heavyweight 450GSM French Terry featuring custom premium high-density 'VOID' cosmic vortex print",
+      "Metallic silver and deep violet high-contrast graphic detailing on the chest",
+      "Articulated structural sleeves with rugged contrast ribbing",
+      "Dual hidden side-pocket tactical compartments"
     ],
     tag: "Exclusive",
     category: "Hoodies",
-    material: "450GSM Dense French Terry",
-    details: "Engineered back seam lines contouring to natural body movements. Features custom contrast styling details that emphasize seam geometry."
+    material: "450GSM Dense French Terry & High-Density Plastisol Print",
+    details: "An architectural masterpiece displaying our core high-contrast geometric 'VOID' cosmic vortex emblem. Structured, dense, and built for ultimate techwear aesthetics."
   },
   {
     id: "005",
     name: "INDUSTRIAL HOODIE",
     price: 180,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLsiSzej3ak1aMJqUzuUbQqKhAPG5TtQeoMGcptyNq4b67_Ot2gTFkwCa7Ub8VerfEw-hmtZbiumOGKVNNIw9AbGbMsgWXoRehELO0PwHlFYmxhvIQyZToGA2KgH3k-QqKuLoyD5_nGyOZKnSDIUp_LqCTj6hVFwrdbLM9_ocNc0A9Wvm7PVlH9GtY0LzlAyKmrFhFjxtJevvVn58LDY4FFjLHrqk-xpqQfYU2GSQJds8Horo2GWvvQVlQs",
+    img: img_005,
     specs: [
       "Heavyweight 500GSM brushed cotton weave",
       "Construct-Sys custom mechanical layout stencil graphics",
@@ -96,7 +111,7 @@ export const PRODUCTS: Product[] = [
     id: "006",
     name: "BRUTALIST HOODIE",
     price: 180,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLtXvV7ZX9DTLtdLY0SbnVJikc5yLVyiUhVVbLcbddMi6mcr7-_JoUJME1VxO7Mmcoo75EgSjcTd4mBmftuPwNLQLEKzR-OLf5qllmoIR1WSf1lu_2dQJyTA5EUSOCvhIHA8EfH4WK2ncNx2KijvK2rqDPyR0U0Q5wDdRcFOIl7-nxAojs1iFc5_xhqlN7d7cZ-xCsytAZgdnIBUDKGHyRu4ElQlm7MNqyqmdFSrJC0iaIQjFcSf7k15NQw",
+    img: img_006,
     specs: [
       "450GSM structural loopback organic cotton",
       "Double-lined hood geometry with rigid structured stand collar",
@@ -112,7 +127,7 @@ export const PRODUCTS: Product[] = [
     id: "007",
     name: "GEOMETRIC BACK TEE",
     price: 85,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLvOcPxxlTdNrJw2PSkHwLTLCj2i5lXNJ5BPnpavNz5Tb46i9POr-lyGX7whB0KClzfkR3Fo5EeaaGSSnscgnoA_YxwRjmF28qObivZbmobzVEf74Hqmf8VryuAHLqrH36b0fzPa3M522Jc4DVYGmyDl3I03eYWosIrfZZTavX8AxzozHP0G0DtCXjAIn1VSiQuN5pvppFrYz1sBbG06oQuQ7HIO4YFqluX45M3PNES5ODncQnRVMB0EAzk",
+    img: img_007,
     specs: [
       "220GSM structural cotton weave",
       "Oversized multi-colored vector construct print across the back",
@@ -128,7 +143,7 @@ export const PRODUCTS: Product[] = [
     id: "008",
     name: "VOID WINDBREAKER",
     price: 240,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLuDEUaxq5mEAUFqQahc51enZaXKyOLpNmGUa9iK5V-WpYEedt6RLpahfdykqJF6CNote5t9uPGzzaHL5gkclI0L8GyzNjj0C29oneCJExqA0iggpGe6CtFmj07uCqT2NYqqCSOetxNzVuZwis3R9qLRXk2zTw_UpVBSNAHNS-a6Jc6Vz0rPOpT4jGUddni1b16qc1AJv26gK3rWyZNy0OxAAlqZZlJ3-FmLve6jxiMa4P5U2GiLxBTxUlQ",
+    img: img_008,
     specs: [
       "Technical water-repellent performance outer shell",
       "Thermal-taped seam line architecture to prevent moisture leak",
@@ -144,7 +159,7 @@ export const PRODUCTS: Product[] = [
     id: "009",
     name: "CARGO COMPLEX PANTS",
     price: 210,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLug_puCrpLkEMu976AujzgTotk6yj4mOVlR2BVCimCf2rFKx-ObIjCkHz2sRsJPNB_9PDAY81PWRl4mUeiHVe0vL_FjiG20mquw47kvoOjHQjU4hY4ekrbZ5OIk-ikS6YO4_0HxegcsCjv3btJx50eVoVNrGx8EoXZZaNseeThkvyCceG8fILTwm0agPQePecMo7h8AfwYHSxohFSFXabEkuCt0mmm5FkH8PIg_zz3vzaQufUM6aBy-Vg",
+    img: img_009,
     specs: [
       "Multi-pocket layout optimized for quick item access",
       "Nylon-reinforced structural knee panels for protection",
@@ -160,7 +175,7 @@ export const PRODUCTS: Product[] = [
     id: "015",
     name: "SHOULDER SYSTEM BAG",
     price: 145,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLviGpRe8A9fz6fADdQWroTTy4X3RGxsKhtNsAPR3YMa29bEucS9PBsFlyWf1m8j4zdq_bABL5VT5ArsuXA60QnBuo6TMiMjA1Px3hhkCOxr9rB7j1NUCszrxMj-hGGDzMslO-74xqpj9m2plPdcqy0FhaSWliMGlCunRrwo4a5WSsh2AooqEDlVxdNapIA-aM2VUBq3It5vtBZkrbItJZwXsXPbgr3H1E5bxPZjRT-kYyoh_i0A0QAKvBo",
+    img: img_015,
     specs: [
       "1000D high-density ballistic nylon architecture",
       "UTX-Duraflex military-grade buckling",
@@ -176,7 +191,7 @@ export const PRODUCTS: Product[] = [
     id: "016",
     name: "TECHNICAL CARGO SHORTS",
     price: 160,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLs7LHyTat3oTPp3801Vp3Qn9B5WWhbG_USsGZXH_DVX-o-EqfrDfftYTF7OtudREy4lGlFXtU06qk0S9LqjdwwLrTjaWd0aKct0ORIZOsOtKJhi6Dr3w2T6NnMhIIW_M96lje794VRkHNIJ23sxBmJ3T2QHXLwqWqGRdgsTYL7iHaqiDbFumGAbVuD-znmtocyulXi69kpgSE6LuMbDkHZuU03DTNpkjo6IlfrvE9wR2pApmYVarF1Hi6g",
+    img: img_016,
     specs: [
       "Lightweight resilient ripstop fabric",
       "Reflective piping elements framing structural pockets",
@@ -192,7 +207,7 @@ export const PRODUCTS: Product[] = [
     id: "017",
     name: "UTILITY VOID BELT",
     price: 85,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLsJ-2m5c1O49vsQ2A7TEzr4Da2TvP7ZjkZFK_Qi-Mxthyth6ndNlTfv5iYEj7trRG-lYXtRs6NskGx6gQLGi41wcFZ3zUO2aCNBY61toVxnOZ7QAJwctLZPJZ0-MrawNgJFf860XTRnKf38Sy6R0J_u2N7pAa7-cmZHOeMv-61xRnxnaJ0FIMEDIo_3a1ajs-QmQrTtTW1K3L41SPaY6hW6_Hx1YFOoyGGVu8MzZ5zrx42VIAApHBZ_YA",
+    img: img_017,
     specs: [
       "Heavy industrial webbing fabric construction",
       "Quick-release metal cobra click-buckle design",
@@ -208,7 +223,7 @@ export const PRODUCTS: Product[] = [
     id: "018",
     name: "TECHNICAL MESH MASK",
     price: 65,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLvCLeIXbCeO1NY05wgFKhZ9RzKBXuxue2W3R1LR28NNoIUnu_JENnzwEM22HS1SXbHqgTwHE5pXL6dSBNeOjKqI-GbLBiGtKYUQqbtcn-fJqMxkV5ANW-TZlJOihbtssr2IDnQGNSntWFvTGVktNgO_DVJ4rKK0KfKiNvTZyxyCRh5NHT6PPcnRV8FjvseTAboWFccURgqhHB2SabsiZ4mwszKM51x2tz2rbIPdyLSukH6Cy2-NmbyZIQ",
+    img: img_018,
     specs: [
       "Air-permeable composite structure with layered filter slots",
       "Pliable rubber nose-bridge contour adjustment",
@@ -224,7 +239,7 @@ export const PRODUCTS: Product[] = [
     id: "019",
     name: "INDUSTRIAL LANYARD",
     price: 45,
-    img: "https://lh3.googleusercontent.com/aida/AP1WRLt5m9feFkBiFUAAElA_FCzCzvFLeYmNF9pQsUITa2MFMyIhl-FKHiei5rMdD-JyrcGCGKsAg-sCiyRyJ6YpAS_KqYl2ze7aQ4_II69NNTXJEbX94BqojMBXTz4eGQoijjgkrhVESaOxZiRdxHFdXyFz_L4mg-m7kSJT-uhEqmK_od8rM3cnWFXZqeTBGRLJTItXtPEZGfVt0I58_7uPZ_ML15_lz6MxGkLClApKt-pUHMYrfCOtKlPVvMY",
+    img: img_019,
     specs: [
       "High-density sublimated heavy lanyard strap",
       "Industrial heavy-duty swivel lock clip",
